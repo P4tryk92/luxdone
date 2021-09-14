@@ -1,0 +1,4 @@
+index:
+    path: /{currency}/{startDate}/{endDate}
+    defaults: { _controller: App\Controller\CurrencyController::indexAction}
+    methods: [ GET ]
